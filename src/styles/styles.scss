@@ -1,0 +1,58 @@
+$mainColor : #906E5F;
+
+body {
+  margin: 0;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.aside {
+  background-color: aquamarine;
+  float: left;
+}
+
+.button-menu {
+  display: inline-block;
+}
+
+.header {
+  background: rgb(255,252,210);
+  background: linear-gradient(0deg, rgba(255,252,210,1) 0%, rgba(181,195,255,1) 100%);
+  //padding-top: 2%;
+  height: 30%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-title {
+  //display: inline-block;
+  font-size: 24px;
+  text-align: center;
+}
+
+.header-image {
+  display: inline-block;
+  float: left;
+}
+.header-menu {
+  display: inline-block;
+  float: right;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.main {
+  background-color: #fffcd2;
+  float: right;
+  text-align: center;
+  height: 70%;
+  width: 100%;
+}
+
+.wrapper {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
